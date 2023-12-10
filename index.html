@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--     <link rel="stylesheet" href="all.css">
+    <link href="css/fontawesome.css" rel="stylesheet">
+    <link href="css/brands.css" rel="stylesheet">
+    <link href="css/solid.css" rel="stylesheet"> -->
+    <script src="https://kit.fontawesome.com/dd0d3a0ad4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>memory game</title>
+</head>
+<body>
+    <div class="splash-screen">
+        <span id="start">ابدأ اللعبة</span>
+    </div>
+    <div class="cards-block">
+        <div class="card" data-weather="cloud">
+            <div class="back face">
+                <i class="fa-solid fa-cloud"></i>
+            </div>
+            <div class="front face">!</div>
+        </div>
+        <div class="card" data-weather="cloud">
+            <div class="back face">
+                <i class="fa-solid fa-cloud"></i>
+            </div>
+        <div class="front face">!</div>
+        </div>
+        <div class="card" data-weather="umbrella">
+            <div class="back face">
+                <i class="fa-solid fa-umbrella"></i>
+            </div>
+            <div class="front face">!</div>
+        </div>
+        <div class="card" data-weather="umbrella">
+            <div class="back face">
+                <i class="fa-solid fa-umbrella"></i>
+            </div>
+            <div class="front face">!</div>
+        </div>
+        <div class="card" data-weather="sun">
+            <div class="back face">
+                <i class="fa-solid fa-sun"></i>
+            </div>
+            <div class="front face">!</div>
+        </div>
+        <div class="card" data-weather="sun">
+            <div class="back face">
+                <i class="fa-solid fa-sun"></i>
+            </div>
+            <div class="front face">!</div>
+        </div>
+        <div class="card" data-weather="snowflake">
+            <div class="back face">
+                <i class="fa-solid fa-snowflake"></i>
+            </div>
+            <div class="front face">!</div>
+        </div>
+        <div class="card" data-weather="snowflake">
+            <div class="back face">
+                <i class="fa-solid fa-snowflake"></i>
+            </div>
+            <div class="front face">!</div>
+        </div>
+        <div class="card" data-weather="poo-storm">
+            <div class="back face">
+                <i class="fa-solid fa-poo-storm"></i>
+            </div>
+            <div class="front face">!</div>
+        </div>
+        <div class="card" data-weather="poo-storm">
+            <div class="back face">
+                <i class="fa-solid fa-poo-storm"></i>
+            </div>
+            <div class="front face">!</div>
+        </div>
+        <div class="card" data-weather="water">
+            <div class="back face">
+                <i class="fa-solid fa-water"></i>
+            </div>
+            <div class="front face">!</div>
+            </div>
+        <div class="card" data-weather="water">
+            <div class="back face">
+                <i class="fa-solid fa-water"></i>
+            </div>
+            <div class="front face">!</div>
+        </div>
+        <div class="card" data-weather="moon">
+            <div class="back face">
+                <i class="fa-solid fa-moon"></i>
+            </div>
+            <div class="front face">!</div>
+        </div>
+        <div class="card" data-weather="moon">
+            <div class="back face">
+                <i class="fa-solid fa-moon"></i>
+            </div>
+            <div class="front face">!</div>
+        </div>
+        <div class="card" data-weather="wind">
+            <div class="back face">
+                <i class="fa-solid fa-wind"></i>
+            </div>
+            <div class="front face">!</div>
+        </div>
+        <div class="card" data-weather="wind">
+            <div class="back face">
+                <i class="fa-solid fa-wind"></i>
+            </div>
+            <div class="front face">!</div>
+        </div>
+        <div class="card" data-weather="rainbow">
+            <div class="back face">
+                <i class="fa-solid fa-rainbow"></i>
+            </div>
+            <div class="front face">!</div>
+        </div>
+        <div class="card" data-weather="rainbow">
+            <div class="back face">
+                <i class="fa-solid fa-rainbow"></i>
+            </div>
+        <div class="front face">!</div>
+        </div> 
+        <div class="card" data-weather="bolt-lightning"">
+            <div class="back face">
+                <i class="fa-solid fa-bolt-lightning"></i>
+            </div>
+            <div class="front face">!</div>
+        </div>
+        <div class="card" data-weather="bolt-lightning"">
+            <div class="back face">
+                <i class="fa-solid fa-bolt-lightning"></i>
+            </div>
+            <div class="front face">!</div>
+        </div>
+    </div>
+    <div class="user-panel">
+        <h3>مرحبا <span id="user-name">روضة</span></h3>
+        <h4>عدد المحاولات الخاطئة <span id="wrong-trial">5</span></h4>
+    </div>
+    <audio src="success.mp3" id="success"></audio>
+    <audio src="failure.mp3" id="fail"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
